@@ -87,6 +87,230 @@
         .glow-blue {
             box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
         }
+        
+        /* Light Theme Styles */
+        .light-theme {
+            background: linear-gradient(to bottom right, #f8fafc, #e2e8f0, #cbd5e1) !important;
+            transition: background 0.3s ease;
+        }
+        
+        /* Smooth transitions for theme changes */
+        * {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+        
+        .light-theme .glass {
+            background: rgba(255, 255, 255, 0.8) !important;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        }
+        
+        .light-theme .glass-dark {
+            background: rgba(255, 255, 255, 0.9) !important;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.2) !important;
+        }
+        
+        .light-theme h1,
+        .light-theme h2,
+        .light-theme h3,
+        .light-theme h4,
+        .light-theme h5,
+        .light-theme h6 {
+            color: #1e293b !important;
+        }
+        
+        .light-theme p,
+        .light-theme span:not(.text-blue-400):not(.text-green-400):not(.text-purple-400):not(.text-yellow-400):not(.text-red-400):not(.text-orange-400):not(.text-indigo-400):not(.text-emerald-400):not(.text-cyan-400) {
+            color: #475569 !important;
+        }
+        
+        .light-theme .text-white {
+            color: #1e293b !important;
+        }
+        
+        .light-theme .text-gray-100 {
+            color: #334155 !important;
+        }
+        
+        .light-theme .text-gray-500 {
+            color: #64748b !important;
+        }
+        
+        .light-theme .text-gray-600 {
+            color: #475569 !important;
+        }
+        
+        .light-theme .text-gray-300,
+        .light-theme .text-gray-400 {
+            color: #64748b !important;
+        }
+        
+        .light-theme .text-gray-200 {
+            color: #334155 !important;
+        }
+        
+        .light-theme #bars {
+            background: linear-gradient(to top, #e2e8f0, #f1f5f9) !important;
+            border-color: #cbd5e1 !important;
+        }
+        
+        .light-theme .bar {
+            background: linear-gradient(to top, #3b82f6, #1d4ed8) !important;
+        }
+        
+        .light-theme .border-gray-800 {
+            border-color: #cbd5e1 !important;
+        }
+        
+        .light-theme .border-gray-700 {
+            border-color: #d1d5db !important;
+        }
+        
+        .light-theme .bg-gradient-to-br {
+            background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(248, 250, 252, 0.9)) !important;
+        }
+        
+        .light-theme .bg-gradient-to-br.from-blue-900\/30 {
+            background: linear-gradient(to bottom right, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.1)) !important;
+        }
+        
+        .light-theme .bg-gradient-to-br.from-purple-900\/30 {
+            background: linear-gradient(to bottom right, rgba(147, 51, 234, 0.1), rgba(124, 58, 237, 0.1)) !important;
+        }
+        
+        .light-theme .bg-gradient-to-br.from-emerald-900\/30 {
+            background: linear-gradient(to bottom right, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.1)) !important;
+        }
+        
+        .light-theme .bg-gradient-to-br.from-orange-900\/30 {
+            background: linear-gradient(to bottom right, rgba(249, 115, 22, 0.1), rgba(234, 88, 12, 0.1)) !important;
+        }
+        
+        .light-theme .bg-gradient-to-br.from-indigo-900\/30 {
+            background: linear-gradient(to bottom right, rgba(99, 102, 241, 0.1), rgba(79, 70, 229, 0.1)) !important;
+        }
+        
+        .light-theme .border-blue-500\/20 {
+            border-color: rgba(59, 130, 246, 0.3) !important;
+        }
+        
+        .light-theme .border-purple-500\/20 {
+            border-color: rgba(147, 51, 234, 0.3) !important;
+        }
+        
+        .light-theme .border-emerald-500\/20 {
+            border-color: rgba(16, 185, 129, 0.3) !important;
+        }
+        
+        .light-theme .border-orange-500\/20 {
+            border-color: rgba(249, 115, 22, 0.3) !important;
+        }
+        
+        .light-theme .border-indigo-500\/20 {
+            border-color: rgba(99, 102, 241, 0.3) !important;
+        }
+        
+        .light-theme .slider::-webkit-slider-thumb {
+            background: #3b82f6;
+        }
+        
+        .light-theme .slider::-moz-range-thumb {
+            background: #3b82f6;
+        }
+        
+        .light-theme .slider {
+            background: #e2e8f0;
+        }
+        
+        .light-theme .slider::-webkit-slider-track {
+            background: #e2e8f0;
+        }
+        
+        .light-theme .slider::-moz-range-track {
+            background: #e2e8f0;
+        }
+        
+        .light-theme .group:hover .absolute {
+            background: #1e293b !important;
+        }
+        
+        /* Fix button text visibility in light mode */
+        .light-theme .sort-btn,
+        .light-theme button {
+            color: #1e293b !important;
+        }
+        
+        .light-theme .sort-btn span,
+        .light-theme button span {
+            color: #1e293b !important;
+        }
+        
+        /* Fix input labels and values */
+        .light-theme label {
+            color: #374151 !important;
+        }
+        
+        .light-theme input[type="range"] {
+            background: #e5e7eb !important;
+        }
+        
+        /* Fix footer text */
+        .light-theme footer p {
+            color: #6b7280 !important;
+        }
+        
+        /* Fix status text */
+        .light-theme #status {
+            color: #6b7280 !important;
+        }
+        
+        /* Fix navigation text */
+        .light-theme nav p {
+            color: #6b7280 !important;
+        }
+        
+        /* Fix hero section text */
+        .light-theme .text-gray-300 {
+            color: #6b7280 !important;
+        }
+        
+        /* Fix statistics section */
+        .light-theme .glass .text-sm {
+            color: #6b7280 !important;
+        }
+        
+        .light-theme .glass .text-2xl {
+            color: #1e293b !important;
+        }
+        
+        .light-theme .glass .text-lg {
+            color: #1e293b !important;
+        }
+        
+        /* Fix algorithm info cards */
+        .light-theme .bg-gradient-to-br p {
+            color: #4b5563 !important;
+        }
+        
+        .light-theme .bg-gradient-to-br .text-sm span {
+            color: #6b7280 !important;
+        }
+        
+        /* Fix icons visibility */
+        .light-theme [data-lucide] {
+            color: inherit !important;
+        }
+        
+        /* Fix GitHub link */
+        .light-theme a {
+            color: #1e293b !important;
+        }
+        
+        /* Fix particle background for light mode */
+        .light-theme #particles div {
+            background-color: #6b7280 !important;
+        }
     </style>
 </head>
 <body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 font-inter text-white overflow-x-hidden">
@@ -111,8 +335,12 @@
                 
                 <!-- Theme Toggle -->
                 <div class="flex items-center space-x-4">
-                    <button id="themeToggle" class="p-2 rounded-lg glass hover:bg-white/20 transition-all duration-300">
-                        <i data-lucide="sun" class="w-5 h-5"></i>
+                    <button id="themeToggle" class="p-2 rounded-lg glass hover:bg-white/20 transition-all duration-300 relative group" title="Toggle Dark/Light Mode">
+                        <i data-lucide="sun" class="w-5 h-5" id="sunIcon"></i>
+                        <i data-lucide="moon" class="w-5 h-5 hidden" id="moonIcon"></i>
+                        <div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                            Toggle Theme
+                        </div>
                     </button>
                     <a href="https://github.com" target="_blank" class="p-2 rounded-lg glass hover:bg-white/20 transition-all duration-300">
                         <i data-lucide="github" class="w-5 h-5"></i>
@@ -197,6 +425,18 @@
                                 <i data-lucide="arrow-up" class="w-5 h-5 relative z-10"></i>
                                 <span class="relative z-10">Insertion Sort</span>
                             </button>
+                            
+                            <button id="mergeSort" class="sort-btn group relative overflow-hidden bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
+                                <div class="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                                <i data-lucide="layers" class="w-5 h-5 relative z-10"></i>
+                                <span class="relative z-10">Merge Sort</span>
+                            </button>
+                            
+                            <button id="quickSort" class="sort-btn group relative overflow-hidden bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
+                                <div class="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                                <i data-lucide="zap" class="w-5 h-5 relative z-10"></i>
+                                <span class="relative z-10">Quick Sort</span>
+                            </button>
                         </div>
                     </div>
 
@@ -266,7 +506,7 @@
             <div class="glass rounded-2xl p-8">
                 <h3 class="text-2xl font-bold text-gray-200 mb-8 text-center">Algorithm Information</h3>
                 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
                     <!-- Bubble Sort Info -->
                     <div class="bg-gradient-to-br from-blue-900/30 to-cyan-900/30 rounded-xl p-6 border border-blue-500/20">
                         <div class="flex items-center mb-4">
@@ -335,6 +575,52 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Merge Sort Info -->
+                    <div class="bg-gradient-to-br from-orange-900/30 to-red-900/30 rounded-xl p-6 border border-orange-500/20">
+                        <div class="flex items-center mb-4">
+                            <i data-lucide="layers" class="w-8 h-8 text-orange-400 mr-3"></i>
+                            <h4 class="text-xl font-bold text-orange-400">Merge Sort</h4>
+                        </div>
+                        <p class="text-gray-300 mb-4">Divides the array into two halves, sorts them separately, then merges them back together.</p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between">
+                                <span class="text-gray-400">Time Complexity:</span>
+                                <span class="text-green-400">O(n log n)</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-400">Space Complexity:</span>
+                                <span class="text-yellow-400">O(n)</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-400">Stable:</span>
+                                <span class="text-green-400">Yes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Sort Info -->
+                    <div class="bg-gradient-to-br from-indigo-900/30 to-purple-900/30 rounded-xl p-6 border border-indigo-500/20">
+                        <div class="flex items-center mb-4">
+                            <i data-lucide="zap" class="w-8 h-8 text-indigo-400 mr-3"></i>
+                            <h4 class="text-xl font-bold text-indigo-400">Quick Sort</h4>
+                        </div>
+                        <p class="text-gray-300 mb-4">Picks a pivot element and partitions the array around the pivot, then recursively sorts the sub-arrays.</p>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between">
+                                <span class="text-gray-400">Time Complexity:</span>
+                                <span class="text-green-400">O(n log n)</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-400">Space Complexity:</span>
+                                <span class="text-green-400">O(log n)</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-400">Stable:</span>
+                                <span class="text-red-400">No</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -354,6 +640,8 @@
     <script src="bubble.js"></script>
     <script src="selection.js"></script>
     <script src="insertion.js"></script>
+    <script src="merge.js"></script>
+    <script src="quick.js"></script>
     <script>
         // Initialize Lucide icons
         lucide.createIcons();
@@ -362,6 +650,9 @@
         function createParticles() {
             const particlesContainer = document.getElementById('particles');
             const particleCount = 50;
+            
+            // Clear existing particles
+            particlesContainer.innerHTML = '';
             
             for (let i = 0; i < particleCount; i++) {
                 const particle = document.createElement('div');
@@ -375,28 +666,62 @@
             }
         }
         
+        // Update particles for theme
+        function updateParticlesForTheme() {
+            const particles = document.querySelectorAll('#particles div');
+            particles.forEach(particle => {
+                if (document.body.classList.contains('light-theme')) {
+                    particle.style.backgroundColor = '#6b7280';
+                } else {
+                    particle.style.backgroundColor = '#ffffff';
+                }
+            });
+        }
+        
         // Theme toggle functionality
         const themeToggle = document.getElementById('themeToggle');
+        const sunIcon = document.getElementById('sunIcon');
+        const moonIcon = document.getElementById('moonIcon');
         let isDark = true;
+        
+        // Load saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            isDark = false;
+            document.body.classList.add('light-theme');
+            sunIcon.classList.add('hidden');
+            moonIcon.classList.remove('hidden');
+        }
         
         themeToggle.addEventListener('click', () => {
             isDark = !isDark;
-            const sunIcon = themeToggle.querySelector('[data-lucide="sun"]');
-            const moonIcon = themeToggle.querySelector('[data-lucide="moon"]');
             
             if (isDark) {
                 document.body.classList.remove('light-theme');
-                sunIcon.style.display = 'block';
-                if (moonIcon) moonIcon.style.display = 'none';
+                sunIcon.classList.remove('hidden');
+                moonIcon.classList.add('hidden');
+                localStorage.setItem('theme', 'dark');
             } else {
                 document.body.classList.add('light-theme');
-                sunIcon.style.display = 'none';
-                if (moonIcon) moonIcon.style.display = 'block';
+                sunIcon.classList.add('hidden');
+                moonIcon.classList.remove('hidden');
+                localStorage.setItem('theme', 'light');
             }
+            
+            // Reinitialize Lucide icons after theme change
+            lucide.createIcons();
+            
+            // Update particles for new theme
+            updateParticlesForTheme();
         });
         
         // Initialize particles on load
         createParticles();
+        
+        // Update particles for initial theme
+        setTimeout(() => {
+            updateParticlesForTheme();
+        }, 100);
         
         // Update slider values
         const sizeSlider = document.getElementById('arr_sz');
